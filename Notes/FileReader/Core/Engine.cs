@@ -16,7 +16,7 @@ namespace FileReader.Core
                 TextFile textFile = new();
 
                 UserInterface.ChangeColorToGreen();
-                string[] input = Console.ReadLine().Split(":", StringSplitOptions.RemoveEmptyEntries);
+                string[] input = Console.ReadLine().Split(new[] { " " }, 2, StringSplitOptions.RemoveEmptyEntries);
                 Console.ResetColor();
 
                 if (input.Length > 1 && input != null)

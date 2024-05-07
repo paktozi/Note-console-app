@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\FileReader.csproj": {}
+    "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\FileReader.csproj": {}
   },
   "projects": {
-    "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\FileReader.csproj": {
+    "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\FileReader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\FileReader.csproj",
+        "projectUniqueName": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\FileReader.csproj",
         "projectName": "FileReader",
-        "projectPath": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\FileReader.csproj",
+        "projectPath": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\FileReader.csproj",
         "packagesPath": "C:\\Users\\mirizlivka\\.nuget\\packages\\",
-        "outputPath": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\obj\\",
+        "outputPath": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

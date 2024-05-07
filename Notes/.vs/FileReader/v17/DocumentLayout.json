@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Programs\\C#\\Exersise\\FileReader\\",
+  "WorkspaceRootPath": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|e:\\programs\\c#\\exersise\\filereader\\filereader\\core\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\core\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|e:\\programs\\c#\\exersise\\filereader\\filereader\\models\\userinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\filereader\\models\\userinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\models\\userinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|E:\\Programs\\C#\\Exersise\\FileReader\\filereader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|c:\\users\\mirizlivka\\documents\\github\\note-console-app\\notes\\filereader\\core\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\core\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\filereader\\models\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\models\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\filereader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|e:\\programs\\c#\\exersise\\filereader\\filereader\\core\\interface\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\filereader\\core\\interface\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\core\\interface\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|e:\\programs\\c#\\exersise\\filereader\\filereader\\resources\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\filereader\\resources\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\resources\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|e:\\programs\\c#\\exersise\\filereader\\filereader\\models\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\models\\textfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserInterface.cs",
-              "DocumentMoniker": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Models\\UserInterface.cs",
-              "RelativeDocumentMoniker": "FileReader\\Models\\UserInterface.cs",
-              "ToolTip": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Models\\UserInterface.cs",
-              "RelativeToolTip": "FileReader\\Models\\UserInterface.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T09:41:42.982Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -60,62 +47,73 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserInterface.cs",
+              "DocumentMoniker": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Models\\UserInterface.cs",
+              "RelativeDocumentMoniker": "FileReader\\Models\\UserInterface.cs",
+              "ToolTip": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Models\\UserInterface.cs",
+              "RelativeToolTip": "FileReader\\Models\\UserInterface.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T09:41:42.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Engine.cs",
-              "DocumentMoniker": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Core\\Engine.cs",
+              "DocumentMoniker": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Core\\Engine.cs",
               "RelativeDocumentMoniker": "FileReader\\Core\\Engine.cs",
-              "ToolTip": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Core\\Engine.cs",
+              "ToolTip": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Core\\Engine.cs",
               "RelativeToolTip": "FileReader\\Core\\Engine.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAQAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T09:15:55.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IEngine.cs",
-              "DocumentMoniker": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Core\\Interface\\IEngine.cs",
+              "DocumentMoniker": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Core\\Interface\\IEngine.cs",
               "RelativeDocumentMoniker": "FileReader\\Core\\Interface\\IEngine.cs",
-              "ToolTip": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Core\\Interface\\IEngine.cs",
+              "ToolTip": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Core\\Interface\\IEngine.cs",
               "RelativeToolTip": "FileReader\\Core\\Interface\\IEngine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T09:15:16.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T09:15:16.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "TextFile.cs",
-              "DocumentMoniker": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Models\\TextFile.cs",
+              "DocumentMoniker": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Models\\TextFile.cs",
               "RelativeDocumentMoniker": "FileReader\\Models\\TextFile.cs",
-              "ToolTip": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Models\\TextFile.cs",
+              "ToolTip": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Models\\TextFile.cs",
               "RelativeToolTip": "FileReader\\Models\\TextFile.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAswC0AAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T16:59:06.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "text.txt",
-              "DocumentMoniker": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Resources\\text.txt",
+              "DocumentMoniker": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Resources\\text.txt",
               "RelativeDocumentMoniker": "FileReader\\Resources\\text.txt",
-              "ToolTip": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Resources\\text.txt",
+              "ToolTip": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Resources\\text.txt",
               "RelativeToolTip": "FileReader\\Resources\\text.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-06T17:02:53.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T17:02:53.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Program.cs",
               "RelativeDocumentMoniker": "FileReader\\Program.cs",
-              "ToolTip": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\Program.cs",
+              "ToolTip": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\Program.cs",
               "RelativeToolTip": "FileReader\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

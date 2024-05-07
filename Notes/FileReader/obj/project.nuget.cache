@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dLL9qd8rltv49qgdNsL3hcSdZwQqnd/hkO46FAyaVovFULZPY2ktXr6clHFenmsCoMCEC8iD2Xlao1k5jz4EHw==",
+  "dgSpecHash": "q6Mc4QmeIUdOm6h/0Q9f+R/+BOhW7vl/yjhf9ooGhRo3DqQ1znCcEYjMIqQTW9c9qDzsHbv9G4i594VjmaBTrg==",
   "success": true,
-  "projectFilePath": "E:\\Programs\\C#\\Exersise\\FileReader\\FileReader\\FileReader.csproj",
+  "projectFilePath": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\FileReader\\FileReader.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
