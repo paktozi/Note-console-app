@@ -33,11 +33,11 @@ public class TextFile
 
     public string ReadFromFile()
     {
-        Console.WriteLine("---------------------");
+        Console.WriteLine("-----------------------");
         Console.ResetColor();
         using (StreamReader reader = new(path))
         {
-            return reader.ReadToEnd() + "---------------------";
+            return (list.Count == 0) ? "No records to print." : reader.ReadToEnd() + "-----------------------";
         }
     }
 
