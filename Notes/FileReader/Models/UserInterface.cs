@@ -23,7 +23,7 @@ namespace FileReader.m
         }
         public static void PrintErrorMsg(string input)
         {
-            Console.WriteLine($"{input} is nod valid command!");
+            Console.WriteLine($"{input} is not valid command!");
         }
 
         public static void ChangeColorToGreen()
