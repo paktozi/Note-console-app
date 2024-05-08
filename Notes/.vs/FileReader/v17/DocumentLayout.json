@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\core\\interface\\iengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|c:\\users\\mirizlivka\\documents\\github\\note-console-app\\notes\\filereader\\models\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|C:\\Users\\mirizlivka\\Documents\\GitHub\\Note-console-app\\Notes\\filereader\\models\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{637DD29A-3214-4C57-AEA0-C7C8F1A2A887}|FileReader\\FileReader.csproj|solutionrelative:filereader\\models\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "FileReader\\Models\\Validator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:46:05.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T13:46:05.297Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "FileReader\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:02:40.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T13:02:40.499Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "FileReader\\Models\\UserInterface.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAcwCQAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:02:28.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T13:02:28.258Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "FileReader\\Core\\Engine.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAmwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:02:09.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T13:02:09.698Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "FileReader\\Core\\Interface\\IEngine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:01:55.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T13:01:55.112Z"
             }
           ]
         }
