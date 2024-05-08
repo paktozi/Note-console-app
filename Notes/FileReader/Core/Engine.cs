@@ -9,6 +9,7 @@ namespace FileReader.Core
     {
         public void Run()
         {
+            UserInterface.PrintLogo();
             UserInterface.PrintHeading();
             bool runApp = true;
             while (runApp)

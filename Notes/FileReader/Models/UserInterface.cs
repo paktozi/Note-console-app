@@ -19,7 +19,7 @@ namespace FileReader.m
         public static void PrintHeading()
         {
             Console.WriteLine("For help write \"help\".");
-            Console.WriteLine("#######################");
+            Console.WriteLine("----------------------------------");
         }
         public static void PrintErrorMsg(string input)
         {
@@ -29,6 +29,20 @@ namespace FileReader.m
         public static void ChangeColorToGreen()
         {
             Console.ForegroundColor = ConsoleColor.Green;
+        }
+        public static void PrintLogo()
+        {
+            string logo = @" 
+ _   _           _                
+| \ | |         | |               
+|  \| |   ___   | |_    ___   ___ 
+| . ` |  / _ \  | __|  / _ \ / __|
+| |\  | | (_) | | |_  |  __/ \__ \
+|_| \_|  \___/   \__|  \___| |___/
+                                                
+                               ";
+            Console.WriteLine(logo);
+            Console.WriteLine();
         }
     }
 }
