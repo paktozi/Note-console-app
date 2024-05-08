@@ -34,7 +34,7 @@ namespace FileReader.m
         }
         public static void PrintErrorMsg(string input)
         {
-            Console.WriteLine($"{input} is not valid command!");
+            Console.WriteLine($"{input} is not valid!");
         }
 
         public static void ChangeColorToGreen()

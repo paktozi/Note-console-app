@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FileReader.m;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -43,26 +44,34 @@ public class TextFile
 
     public void RemoveLine(string number)
     {
-        int num = int.Parse(number);
-
-        if (!IsNotValidNumber(num))
+        number = number.Trim();
+        if (Validator.IsValidInteger(number))
         {
-            list.RemoveAll(l => l.StartsWith(number));
-            File.WriteAllLines(path, list.ToArray());
-            Console.WriteLine($"Line {number} removed!");
+            int num = int.Parse(number);
 
-            for (int i = num - 1; i < list.Count; i++)    //    rewrite number of line
+            if (!Validator.IsNotValidNumber(num, list.Count))
             {
-                string word = list[i];
-                char[] wordToChar = word.ToCharArray();
-                int n = i + 1;
-                char c = (char)(n + '0');
-                wordToChar[0] = c;
-                list[i] = new string(wordToChar);
+                list.RemoveAll(l => l.StartsWith(number));
+                File.WriteAllLines(path, list.ToArray());
+                Console.WriteLine($"Line {number} removed!");
+
+                for (int i = num - 1; i < list.Count; i++)    //    rewrite number of line
+                {
+                    string word = list[i];
+                    char[] wordToChar = word.ToCharArray();
+                    int n = i + 1;
+                    char c = (char)(n + '0');
+                    wordToChar[0] = c;
+                    list[i] = new string(wordToChar);
+                }
             }
+            File.WriteAllLines(path, list.ToArray());//update text.txt with list
+            PrintAll();
         }
-        File.WriteAllLines(path, list.ToArray());//update text.txt with list
-        PrintAll();
+        else
+        {
+            UserInterface.PrintErrorMsg(number);
+        }
     }
 
     public void RemoveAll()
@@ -74,29 +83,28 @@ public class TextFile
 
     public void EditLine(string number)
     {
-        int num = int.Parse(number);
-        if (!IsNotValidNumber(num))
+        number = number.Trim();
+        if (Validator.IsValidInteger(number))
         {
-            int index = list.FindIndex(x => x.StartsWith(number));
-            Console.WriteLine(list[index]);
-            Console.Write("Enter new record:  ");
-            string newWord = Console.ReadLine();
-            list[index] = $"{number}.{newWord}";
-            File.WriteAllLines(path, list.ToArray());
-            Console.WriteLine($"Line {number} edited successful!");
-            PrintAll();
+            int num = int.Parse(number);
+            if (!Validator.IsNotValidNumber(num, list.Count))
+            {
+                int index = list.FindIndex(x => x.StartsWith(number));
+                Console.WriteLine(list[index]);
+                Console.Write("Enter new record:  ");
+                string newWord = Console.ReadLine();
+                list[index] = $"{number}.{newWord}";
+                File.WriteAllLines(path, list.ToArray());
+                Console.WriteLine($"Line {number} edited successful!");
+                PrintAll();
+            }
+        }
+        else
+        {
+            UserInterface.PrintErrorMsg(number);
         }
     }
 
-    private bool IsNotValidNumber(int number)
-    {
-        if (number <= 0 || number > list.Count)
-        {
-            Console.WriteLine($"{number} is not valid number!");
-            return true;
-        }
-        return false;
-    }
     private void PrintAll()
     {
         Console.WriteLine();
