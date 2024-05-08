@@ -1,3 +1,4 @@
 Simple note console app.
 
-![Screenshot 2024-05-07 231840](https://github.com/paktozi/Note-console-app/assets/130216112/688750aa-140d-48e3-b7df-7ce7b0af69fb)
+![Screenshot 2024-05-08 175109](https://github.com/paktozi/Note-console-app/assets/130216112/f41f5837-8136-428e-8e6e-dec45f267215)
+
