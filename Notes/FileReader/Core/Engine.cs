@@ -21,7 +21,7 @@ namespace FileReader.Core
 
                 if (input.Length > 1 && input != null)
                 {
-                    switch (input[0])
+                    switch (input[0].ToLower())
                     {
                         case "add": textFile.WriteToFile(input[1]); break;
                         case "remove": textFile.RemoveLine(input[1]); break;
@@ -31,7 +31,7 @@ namespace FileReader.Core
                 }
                 else if (input.Length == 1 && input != null)
                 {
-                    switch (input[0])
+                    switch (input[0].ToLower())
                     {
                         case "print": Console.WriteLine(textFile.ReadFromFile()); break;
                         case "clear": Console.Clear(); break;

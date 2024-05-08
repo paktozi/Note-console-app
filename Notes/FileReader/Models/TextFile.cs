@@ -34,10 +34,9 @@ public class TextFile
     public string ReadFromFile()
     {
         Console.WriteLine("-----------------------");
-        Console.ResetColor();
         using (StreamReader reader = new(path))
         {
-            return (list.Count == 0) ? "No records to print." : reader.ReadToEnd() + "-----------------------";
+            return (list.Count == 0) ? "There are no records to print." : reader.ReadToEnd() + "-----------------------";
         }
     }
 
@@ -70,7 +69,7 @@ public class TextFile
     {
         list.Clear();
         File.WriteAllLines(path, list.ToArray());
-        Console.WriteLine("All clear!");
+        Console.WriteLine("All records are cleared!");
     }
 
     public void EditLine(string number)
@@ -80,7 +79,7 @@ public class TextFile
         {
             int index = list.FindIndex(x => x.StartsWith(number));
             Console.WriteLine(list[index]);
-            Console.Write("Enter new words:  ");
+            Console.Write("Enter new record:  ");
             string newWord = Console.ReadLine();
             list[index] = $"{number}.{newWord}";
             File.WriteAllLines(path, list.ToArray());
@@ -102,6 +101,7 @@ public class TextFile
     {
         Console.WriteLine();
         list.ForEach(x => Console.WriteLine(x));
+        Console.ResetColor();
         Console.WriteLine();
     }
 }
