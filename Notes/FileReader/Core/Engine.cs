@@ -35,8 +35,8 @@ namespace FileReader.Core
                     switch (input[0].ToLower())
                     {
                         case "print": Console.WriteLine(textFile.ReadFromFile()); break;
-                        case "clear": Console.Clear(); break;
-                        case "help": UserInterface.PrintHelpMenu(); break;
+                        case "c": Console.Clear(); break;
+                        case "h": UserInterface.PrintHelpMenu(); break;
                         case "removeall": textFile.RemoveAll(); break;
                         case "exit": runApp = false; break;
                         default: UserInterface.PrintErrorMsg(input[0]); break;

@@ -11,14 +11,14 @@ namespace FileReader.m
             Console.WriteLine("Write \"removeall\" to delete all from text file.");
             Console.WriteLine("Write \"edit[space]n\" to edit line.");
             Console.WriteLine("Write \"print\" to print all line.");
-            Console.WriteLine("Write \"clear\" to clear console text.");
+            Console.WriteLine("Write \"c\" to clear console text.");
             Console.WriteLine("Write \"exit\" to exit app.");
             Console.WriteLine("n == number of line.");
         }
 
         public static void PrintHeading()
         {
-            Console.WriteLine("For help write \"help\".");
+            Console.WriteLine("For help write \"h\".");
             Console.WriteLine("----------------------------------");
         }
         public static void PrintErrorMsg(string input)
