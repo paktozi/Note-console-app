@@ -34,7 +34,7 @@ namespace FileReader.Core
                 {
                     switch (input[0].ToLower())
                     {
-                        case "print": Console.WriteLine(textFile.ReadFromFile()); break;
+                        case "p": Console.WriteLine(textFile.ReadFromFile()); break;
                         case "c": Console.Clear(); break;
                         case "h": UserInterface.PrintHelpMenu(); break;
                         case "removeall": textFile.RemoveAll(); break;

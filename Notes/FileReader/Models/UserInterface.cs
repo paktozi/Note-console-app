@@ -6,20 +6,31 @@ namespace FileReader.m
     {
         public static void PrintHelpMenu()
         {
-            Console.WriteLine("Write \"add[space]some text\" to add a new line.");
-            Console.WriteLine("Write \"remove[space]n\" to delete line.");
-            Console.WriteLine("Write \"removeall\" to delete all from text file.");
-            Console.WriteLine("Write \"edit[space]n\" to edit line.");
-            Console.WriteLine("Write \"print\" to print all line.");
+            string logo = @"
+ _   _          _         
+| | | |   ___  | |  _ __  
+| |_| |  / _ \ | | | '_ \ 
+|  _  | |  __/ | | | |_) |
+|_| |_|  \___| |_| | .__/ 
+                   |_|    
+";
+            Console.WriteLine(logo);
+            Console.WriteLine("Write \"add[space]some text\" to add a new record.");
+            Console.WriteLine("Write \"remove[space]n\" to delete record.");
+            Console.WriteLine("Write \"removeall\" to delete all from saved records.");
+            Console.WriteLine("Write \"edit[space]n\" to overwrite record.");
+            Console.WriteLine("Write \"p\" to print all records.");
             Console.WriteLine("Write \"c\" to clear console text.");
             Console.WriteLine("Write \"exit\" to exit app.");
-            Console.WriteLine("n == number of line.");
+            Console.WriteLine("n == number of record.");
         }
 
         public static void PrintHeading()
         {
             Console.WriteLine("For help write \"h\".");
-            Console.WriteLine("----------------------------------");
+            //Console.WriteLine("----------------------------------");
+            Console.WriteLine("────────────────────────────────────");
+
         }
         public static void PrintErrorMsg(string input)
         {
@@ -42,7 +53,6 @@ namespace FileReader.m
                                                 
                                ";
             Console.WriteLine(logo);
-            Console.WriteLine();
         }
     }
 }
